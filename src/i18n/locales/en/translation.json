@@ -1,0 +1,371 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "contact": "Contact Us",
+    "language": "العربية"
+  }, 
+  "hero": {
+    "viewProjects": "Our Story",
+    "getInTouch": "Get In Touch",
+    "previousSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "slide1Title": "Saudi Arabia's Premier Event Partner",
+    "slide1Subtitle": "Setting new standards in exhibition excellence",
+    "slide2Title": "Integrated Event Solutions",
+    "slide2Subtitle": "Complete management from concept to completion",
+    "slide3Title": "Events That Excel",
+    "slide3Subtitle": "Any size, any scale, always exceptional"
+  },
+
+  "services": {
+    "label": "What We Do",
+    "title": "Comprehensive Event Solutions",
+    "subtitle": "From strategic planning to flawless execution, we deliver exceptional exhibitions and conferences",
+    "learnMore": "Learn More",
+    "planning": {
+      "title": "Exhibition Management",
+      "description": "Develop accurate strategic plans for organizing exhibitions from start to finish",
+      "feature1": "End-to-end project management",
+      "feature2": "Detailed timeline development",
+      "feature3": "Risk assessment and mitigation"
+    },
+    "design": {
+      "title": "Conference Planning",
+      "description": "Innovative design and high-quality production for unique conference",
+      "feature1": "3D venue visualization",
+      "feature2": "Custom booth design",
+      "feature3": "Brand experience creation"
+    },
+    "audioVisual": {
+      "title": "Audio Visual Equipment",
+      "description": "State-of-the-art equipment ensuring rich participant experiences",
+      "feature1": "4K LED screens & displays",
+      "feature2": "Professional sound systems",
+      "feature3": "Live streaming capabilities"
+    },
+    "eventManagement": {
+      "title": "Hybrid Event Solutions",
+      "description": "Integrated management for events combining physical and virtual presence",
+      "feature1": "Virtual platform integration",
+      "feature2": "Interactive engagement tools",
+      "feature3": "Global audience reach"
+    },
+    "marketing": {
+      "title": "Marketing Solutions",
+      "description": "Innovative strategies to promote events and reach target audiences",
+      "feature1": "Digital marketing campaigns",
+      "feature2": "Social media management",
+      "feature3": "PR and media relations"
+    }
+  },
+  "stats": {
+    "events": "Successful Events",
+    "clients": "Clients",
+    "years": "Years Experience",
+    "satisfaction": "Client Satisfaction"
+  },
+  "aboutHomepage": {
+    "label": "About FutureCode",
+    "title": "Leading Saudi Excellence in Events",
+    "description": "FutureCode is a leading Saudi company in organizing and managing exhibitions and conferences, specialized in providing a variety of services that meet the needs of large and small events alike.",
+    "commitment": "We are committed to providing the highest standards of quality and innovation, relying on a professional team that strives to turn your vision into reality.",
+    "feature1": "ISO certified quality standards",
+    "feature2": "Award-winning event production",
+    "feature3": "24/7 dedicated support team",
+    "cta": "Start Your Project",
+    "imageAlt": "Professional conference setup",
+    "yearsExperience": "Years of Excellence"
+  },
+  "homepage": {
+    "heading": "Start of a new futureCode Website."
+  },
+
+  "footer": {
+    "companyName": "FutureCode",
+    "companyDescription": "Leading the way in innovative exhibitions, conferences, and event management solutions across Saudi Arabia.",
+    "address": "Prince Mohammed bin Saad bin Abdul Aziz Road, Al Aqiq 13515 Saudi Arabia",
+    "workingHours": "Sun - Thu: 9:00 AM - 5:00 PM",
+    "quickLinks": "Quick Links",
+    "ourServices": "Our Services",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "exhibitions": "Exhibition Management",
+    "conferences": "Conference Planning",
+    "events": "Audio Visual Equipments",
+    "consulting": "Event Consulting",
+    "marketing": "Marketing Solutions",
+    "newslettertitle": "Stay Updated",
+    "description": "Subscribe to our newsletter for the latest updates and industry insights.",
+    "placeholder": "Enter your email",
+    "followUs": "Follow Us",
+    "copyright": "FutureCode. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap"
+  },
+
+  "serviceDetail": {
+    "backToHome": "Back to Home",
+    "overview": "Overview",
+    "keyFeatures": "Key Features",
+    "ourProcess": "Our Process",
+    "benefits": "Benefits",
+    "getStarted": "Get Started",
+    "ctaDescription": "Ready to elevate your events? Contact us today for a personalized consultation.",
+    "contactUs": "Contact Us",
+    "relatedServices": "Related Services",
+    "processStep1": "Discovery & Planning",
+    "processStep2": "Design & Development",
+    "processStep3": "Implementation",
+    "processStep4": "Evaluation & Support",
+    "planning": {
+      "title": "Exhibition Management",
+      "subtitle": "Transform your vision into flawlessly executed exhibitions with our comprehensive strategic planning",
+      "description": "We specialize in developing precise strategic plans that guide your events from conception to completion. Our expert team ensures every detail aligns with your vision and objectives, creating memorable experiences that exceed expectations.",
+      "features": {
+        "feature1": "Comprehensive event roadmaps with clear milestones and deliverables",
+        "feature2": "Risk assessment and mitigation strategies for seamless execution",
+        "feature3": "Budget optimization and resource allocation planning",
+        "feature4": "Stakeholder coordination and communication frameworks",
+        "feature5": "Timeline development with critical path analysis",
+        "feature6": "Post-event analysis and continuous improvement strategies"
+      },
+      "process": {
+        "step1": "We begin with in-depth consultations to understand your vision, objectives, and requirements",
+        "step2": "Our team develops a comprehensive strategic plan with detailed timelines and resource allocation",
+        "step3": "We execute the plan with precision, maintaining constant communication and quality control",
+        "step4": "Post-event evaluation ensures lessons learned are captured for future excellence"
+      },
+      "benefits": {
+        "benefit1": "Reduced stress with professional management",
+        "benefit2": "Cost savings through efficient resource utilization",
+        "benefit3": "Higher success rates with proven methodologies",
+        "benefit4": "Scalable solutions for events of any size"
+      }
+    },
+    "design": {
+      "title": "Conference Planning",
+      "subtitle": "Create unforgettable experiences with innovative design and flawless production",
+      "description": "Our creative team brings your event vision to life through innovative design concepts and high-quality production. We blend aesthetics with functionality to create immersive experiences that captivate your audience and achieve your goals.",
+      "features": {
+        "feature1": "Custom theme development and creative conceptualization",
+        "feature2": "3D visualization and virtual event walkthroughs",
+        "feature3": "Stage design and scenic fabrication",
+        "feature4": "Lighting design for atmosphere and impact",
+        "feature5": "Branded environment creation and wayfinding",
+        "feature6": "Sustainable design options and eco-friendly solutions"
+      },
+      "process": {
+        "step1": "Creative briefing and concept exploration to capture your unique vision",
+        "step2": "Design development with detailed renderings and material selections",
+        "step3": "Production coordination with trusted vendors and quality oversight",
+        "step4": "On-site installation supervision and final touches for perfection"
+      },
+      "benefits": {
+        "benefit1": "Unique, Instagram-worthy event designs",
+        "benefit2": "Cohesive branding across all touchpoints",
+        "benefit3": "Flexible designs adaptable to any venue",
+        "benefit4": "Enhanced attendee engagement and experience"
+      }
+    },
+    "audioVisual": {
+      "title": "Audio-Visual Equipment & Solutions",
+      "subtitle": "State-of-the-art technology for crystal-clear communication and stunning presentations",
+      "description": "We provide cutting-edge audio-visual solutions that ensure your message is delivered with maximum impact. From intimate meetings to large-scale productions, our technical expertise guarantees flawless execution.",
+      "features": {
+        "feature1": "4K/8K LED walls and projection mapping systems",
+        "feature2": "Professional audio systems with wireless capabilities",
+        "feature3": "Live streaming and broadcasting equipment",
+        "feature4": "Interactive displays and touchscreen technologies",
+        "feature5": "Advanced lighting systems with DMX control",
+        "feature6": "Simultaneous interpretation and translation systems"
+      },
+      "process": {
+        "step1": "Technical requirements assessment and venue site survey",
+        "step2": "Custom AV solution design with equipment specifications",
+        "step3": "Professional installation and comprehensive testing",
+        "step4": "On-site technical support and real-time troubleshooting"
+      },
+      "benefits": {
+        "benefit1": "Crystal-clear audio and stunning visuals",
+        "benefit2": "Reliable equipment with backup systems",
+        "benefit3": "Expert technical support throughout your event",
+        "benefit4": "Scalable solutions for any venue size"
+      }
+    },
+    "eventManagement": {
+      "title": "Program Management & Hybrid Event Solutions",
+      "subtitle": "Seamlessly blend physical and virtual experiences for maximum reach and engagement",
+      "description": "Our integrated program management services and hybrid event solutions enable you to connect with audiences anywhere. We manage complex event programs while leveraging technology to create engaging experiences for both in-person and remote participants.",
+      "features": {
+        "feature1": "Hybrid event platform integration and management",
+        "feature2": "Virtual attendee engagement tools and networking",
+        "feature3": "Multi-location event coordination and synchronization",
+        "feature4": "Registration and attendee management systems",
+        "feature5": "Real-time analytics and audience insights",
+        "feature6": "On-demand content delivery and recording services"
+      },
+      "process": {
+        "step1": "Program structure design and platform selection for optimal engagement",
+        "step2": "Technology integration and attendee journey mapping",
+        "step3": "Live event management with real-time coordination",
+        "step4": "Post-event content distribution and impact analysis"
+      },
+      "benefits": {
+        "benefit1": "Expanded reach to global audiences",
+        "benefit2": "Increased ROI through hybrid attendance options",
+        "benefit3": "Enhanced networking opportunities",
+        "benefit4": "Comprehensive data and analytics insights"
+      }
+    },
+    "marketing": {
+      "title": "Marketing Communication Strategies",
+      "subtitle": "Amplify your event's impact with targeted marketing that drives attendance and engagement",
+      "description": "We develop and implement innovative marketing strategies that ensure your event reaches the right audience at the right time. Our data-driven approach maximizes visibility, drives registration, and creates buzz that extends beyond the event itself.",
+      "features": {
+        "feature1": "Multi-channel marketing campaign development",
+        "feature2": "Social media strategy and content creation",
+        "feature3": "Email marketing automation and segmentation",
+        "feature4": "Influencer partnerships and PR coordination",
+        "feature5": "SEO-optimized event websites and landing pages",
+        "feature6": "Performance tracking and ROI measurement"
+      },
+      "process": {
+        "step1": "Market research and target audience analysis",
+        "step2": "Strategic campaign planning with creative development",
+        "step3": "Multi-channel campaign execution and optimization",
+        "step4": "Performance analysis and actionable insights reporting"
+      },
+      "benefits": {
+        "benefit1": "Increased event awareness and registration",
+        "benefit2": "Higher attendee engagement rates",
+        "benefit3": "Measurable marketing ROI",
+        "benefit4": "Long-term brand building and loyalty"
+      }
+    }
+  },
+
+  "contactdetail": {
+    "heroTitle": "Get In Touch",
+    "heroSubtitle": "We're here to help bring your vision to life",
+    "contactInfo": "Contact Information",
+    "infoDescription": "Reach out to us through any of the following channels",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "realaddress": "Prince Mohammed bin Saad bin Abdul Aziz Road, Al Aqiq 13515 Saudi Arabia",
+    "businessHours": "Business Hours",
+    "workDays": "Sunday - Thursday",
+    "workTime": "9:00 AM - 5:00 PM",
+    "followUs": "Follow Us",
+    "sendMessage": "Send Us a Message",
+    "formDescription": "Fill out the form below and we'll get back to you as soon as possible",
+    "visitUs": "Visit Our Office",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter Name",
+      "email": "Email Address",
+      "emailPlaceholder": "ahmed@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+966 5X XXX XXXX",
+      "company": "Company",
+      "companyPlaceholder": "Your Company",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can we help you?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "Sorry, something went wrong. Please try again."
+  }
+
+ },
+
+  "about": {
+    "heroTitle": "About Future Code",
+    "heroSubtitle": "Transforming visions into exceptional experiences through innovative event solutions",
+    "story": {
+      "label": "Our Story",
+      "title": "Building the Future of Events",
+      "paragraph1": "Future Code Company for Exhibition and Conference Organization was born from a vision to transform the event management landscape in Saudi Arabia. Founded by a team of passionate professionals who recognized the growing need for comprehensive, innovative event solutions, we have established ourselves as a trusted partner for organizations seeking excellence in event execution.",
+      "paragraph2": "Our journey began with a simple belief: every event has the potential to create lasting impact. This philosophy drives us to push boundaries, embrace innovation, and deliver experiences that resonate with audiences long after the lights dim.",
+      "quote": "Excellence is not a destination but a continuous journey of innovation and dedication."
+    },
+    "stats": {
+      "events": "Events Organized",
+      "clients": "Clients",
+      "years": "Years of Excellence",
+      "satisfaction": "Client Satisfaction"
+    },
+    "mvv": {
+      "label": "Our Foundation",
+      "title": "Mission, Vision & Values"
+    },
+    "vision": {
+      "title": "Vision",
+      "description": "To be the leading company in event and exhibition organization, achieving the highest standards of quality and innovation in every project we handle."
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "To provide event organization and management services that exceed our clients' expectations, focusing on quality, professionalism, and uniqueness in every aspect of our work."
+    },
+    "values": {
+      "label": "What Drives Us",
+      "title": "Our Core Values",
+      "innovation": {
+        "title": "Innovation",
+        "description": "We are committed to providing creative and innovative solutions that uniquely meet our clients' needs. Our team continuously explores new technologies, methodologies, and creative approaches to ensure every event stands out."
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "We adhere to the highest quality standards in every aspect of our work to ensure event success. From initial planning to final execution, quality is never compromised in our pursuit of excellence."
+      },
+      "professionalism": {
+        "title": "Professionalism",
+        "description": "We deliver our services with a professional and expert team that ensures smooth and precise event execution. Our commitment to professionalism is reflected in every interaction and every deliverable."
+      },
+      "dedication": {
+        "title": "Dedication",
+        "description": "We work hard and diligently to ensure client satisfaction and exceed their expectations. Our dedication drives us to go above and beyond in every project we undertake."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We build strong relationships with our clients and partners to achieve mutual success. We believe that the best events are created through meaningful partnerships and open communication."
+      }
+    },
+    "team": {
+      "label": "Leadership",
+      "title": "Meet Our CEO",
+      "subtitle": "Driven by passion, guided by experience",
+      "ceo": {
+        "name": "Prof. Abdullah Bin Mohammed Al Domais Algarni",
+        "role": "Chief Executive Officer",
+        "bio": "With over 15 years of experience in event management and business development, our CEO brings strategic vision and industry expertise to every project. Previously served in senior roles at leading event companies across the Middle East.",
+        "experience": "15+ years in event management"
+      },
+      "director": {
+        "name": "[Operations Director Name]",
+        "role": "Director of Operations",
+        "bio": "A seasoned operations professional with extensive experience in large-scale event logistics and project management. Specializes in complex multi-venue events and international conferences.",
+        "experience": "12+ years in operations"
+      },
+      "ctaText": "Our team is ready to bring your vision to life",
+      "ctaButton": "Meet the Full Team"
+    },
+    "cta": {
+      "title": "Ready to Create Something Extraordinary?",
+      "text": "Let's transform your vision into an unforgettable experience that exceeds expectations.",
+      "primaryButton": "Explore Our Services",
+      "secondaryButton": "Get in Touch"
+    }
+  }
+
+}

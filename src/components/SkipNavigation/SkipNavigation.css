@@ -1,0 +1,26 @@
+/* Skip Navigation Link */
+.skip-navigation {
+  position: absolute;
+  top: -100%;
+  inset-inline-start: 1rem;
+  z-index: 1001;
+  padding: 0.75rem 1.5rem;
+  background: var(--accent-color, #38bdf8);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: top 0.2s ease-out;
+}
+
+.skip-navigation:focus {
+  top: 1rem;
+  outline: 3px solid white;
+  outline-offset: 2px;
+}
+
+.skip-navigation:hover {
+  background: var(--accent-hover, #0ea5e9);
+  transform: scale(1.05);
+}
