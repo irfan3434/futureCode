@@ -216,21 +216,21 @@ NavItem.displayName = 'NavItem';
 const HERO_SLIDES = [
   {
     id: 1,
-    image: '/assets/5.png',
+    image: '/assets/5.webp',
     alt: 'FutureCode',
     titleKey: `hero.slide1Title`,
     subtitleKey: 'hero.slide1Subtitle'
   },
   {
     id: 2,
-    image: '/assets/6.png',
+    image: '/assets/6.webp',
     alt: 'Integrated Event Solutions',
     titleKey: 'hero.slide2Title',
     subtitleKey: 'hero.slide2Subtitle'
   },
   {
     id: 3,
-    image: '/assets/4.png',
+    image: '/assets/4.webp',
     alt: 'Creative design',
     titleKey: 'hero.slide3Title',
     subtitleKey: 'hero.slide3Subtitle'
