@@ -227,7 +227,8 @@
   background: inherit;
   background-size: cover;
   background-position: center;
-  animation: kenBurns 20s ease-out infinite;
+  animation: kenBurns 15s ease-out infinite alternate;
+  animation-play-state: paused;
 }
 
 .hero-slide.active .hero-slide-inner {
@@ -235,12 +236,11 @@
 }
 
 @keyframes kenBurns {
-  0% {
-    transform: scale(1) translate(0, 0);
+  from {
+    transform: scale(1);
   }
-
-  100% {
-    transform: scale(1.1) translate(-2%, -2%);
+  to {
+    transform: scale(1.12);
   }
 }
 

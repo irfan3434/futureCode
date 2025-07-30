@@ -266,34 +266,34 @@ const HeroSection = memo(({ isHomePage }) => {
   }, [isHomePage]);
 
   const performSlideTransition = useCallback((newSlideIndex) => {
-    // Step 1: Hide text with exit animation
-    setTextVisible(false);
-    setIsTransitioning(true);
-    
-    // Step 2: Change slide after text exits (300ms)
-    setTimeout(() => {
-      setCurrentSlide(newSlideIndex);
-    }, 500);
-    
-    // Step 3: Show new text with enter animation (100ms after slide change)
-    setTimeout(() => {
-      setIsTransitioning(false);
-      setTextVisible(true);
-      setAnimationKey(prev => prev + 1); // Force new animation
-    }, 800);
-  }, []);
+  setIsTransitioning(true);
+  setTextVisible(false);
+
+  // Wait for text to fade out (300ms-500ms)
+  setTimeout(() => {
+    setCurrentSlide(newSlideIndex);
+  }, 500);
+
+  // Wait slightly longer before fading text back in smoothly
+  setTimeout(() => {
+    setTextVisible(true);
+    setIsTransitioning(false);
+    setAnimationKey(prev => prev + 1);
+  }, 700);
+}, []);
+
   
   // Auto-advance slides
    useEffect(() => {
-    if (!isHomePage || !imagesLoaded) return;
-    
-    const slideInterval = setInterval(() => {
-      const nextSlide = (currentSlide + 1) % HERO_SLIDES.length;
-      performSlideTransition(nextSlide);
-    }, 5000);
-    
-    return () => clearInterval(slideInterval);
-  }, [currentSlide, imagesLoaded, isHomePage, performSlideTransition]);
+  if (!isHomePage || !imagesLoaded) return;
+
+  const slideInterval = setInterval(() => {
+    const nextSlide = (currentSlide + 1) % HERO_SLIDES.length;
+    performSlideTransition(nextSlide);
+  }, 7000); // adjusted to 7s for smoother pacing (modify as desired)
+
+  return () => clearInterval(slideInterval);
+}, [currentSlide, imagesLoaded, isHomePage, performSlideTransition]);
   
   const handleNextSlide = useCallback(() => {
     const nextSlide = (currentSlide + 1) % HERO_SLIDES.length;
