@@ -243,6 +243,8 @@ const HeroSection = memo(({ isHomePage }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [textVisible, setTextVisible] = useState(true);
+  const [animationKey, setAnimationKey] = useState(0); 
   
   
   // Preload images
@@ -262,47 +264,52 @@ const HeroSection = memo(({ isHomePage }) => {
       .then(() => setImagesLoaded(true))
       .catch(console.error);
   }, [isHomePage]);
+
+  const performSlideTransition = useCallback((newSlideIndex) => {
+    // Step 1: Hide text with exit animation
+    setTextVisible(false);
+    setIsTransitioning(true);
+    
+    // Step 2: Change slide after text exits (300ms)
+    setTimeout(() => {
+      setCurrentSlide(newSlideIndex);
+    }, 500);
+    
+    // Step 3: Show new text with enter animation (100ms after slide change)
+    setTimeout(() => {
+      setIsTransitioning(false);
+      setTextVisible(true);
+      setAnimationKey(prev => prev + 1); // Force new animation
+    }, 800);
+  }, []);
   
   // Auto-advance slides
-  useEffect(() => {
+   useEffect(() => {
     if (!isHomePage || !imagesLoaded) return;
     
     const slideInterval = setInterval(() => {
-      setIsTransitioning(true);
-      setTimeout(() => {
-        setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
-        setIsTransitioning(false);
-      }, 300);
-    }, 5000); // Change slide every 5 seconds
+      const nextSlide = (currentSlide + 1) % HERO_SLIDES.length;
+      performSlideTransition(nextSlide);
+    }, 5000);
     
     return () => clearInterval(slideInterval);
-  }, [currentSlide, imagesLoaded, isHomePage]);
+  }, [currentSlide, imagesLoaded, isHomePage, performSlideTransition]);
   
   const handleNextSlide = useCallback(() => {
-    setIsTransitioning(true);
-    setTimeout(() => {
-      setCurrentSlide((prev) => (prev + 1) % HERO_SLIDES.length);
-      setIsTransitioning(false);
-    }, 300);
-  }, []);
+    const nextSlide = (currentSlide + 1) % HERO_SLIDES.length;
+    performSlideTransition(nextSlide);
+  }, [currentSlide, performSlideTransition]);
   
   const handlePrevSlide = useCallback(() => {
-    setIsTransitioning(true);
-    setTimeout(() => {
-      setCurrentSlide((prev) => (prev - 1 + HERO_SLIDES.length) % HERO_SLIDES.length);
-      setIsTransitioning(false);
-    }, 300);
-  }, []);
+    const prevSlide = (currentSlide - 1 + HERO_SLIDES.length) % HERO_SLIDES.length;
+    performSlideTransition(prevSlide);
+  }, [currentSlide, performSlideTransition]);
   
   const goToSlide = useCallback((index) => {
     if (index !== currentSlide) {
-      setIsTransitioning(true);
-      setTimeout(() => {
-        setCurrentSlide(index);
-        setIsTransitioning(false);
-      }, 300);
+      performSlideTransition(index);
     }
-  }, [currentSlide]);
+  }, [currentSlide, performSlideTransition]);
   
   // Don't render if not on homepage
   if (!isHomePage) return null;
@@ -359,10 +366,16 @@ const HeroSection = memo(({ isHomePage }) => {
       {/* Hero Content */}
       <div className="hero-content">
         <div className="hero-text-wrapper">
-          <h1 className={`hero-title ${isTransitioning ? 'fade-out' : 'fade-in'}`}>
+          <h1 
+            key={`title-${animationKey}`}
+            className={`hero-title ${textVisible ? 'slide-up-fade-in' : 'slide-up-fade-out'}`}
+          >
             {t(HERO_SLIDES[currentSlide].titleKey)}
           </h1>
-          <p className={`hero-subtitle ${isTransitioning ? 'fade-out' : 'fade-in'}`}>
+          <p 
+            key={`subtitle-${animationKey}`}
+            className={`hero-subtitle ${textVisible ? 'slide-up-fade-in delayed' : 'slide-up-fade-out'}`}
+          >
             {t(HERO_SLIDES[currentSlide].subtitleKey)}
           </p>
         </div>
