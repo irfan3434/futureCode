@@ -353,6 +353,7 @@
 }
 
 .hero-title {
+  font-family: GraphikWide-Thin,sans-serif;
   font-size: clamp(2.5rem, 7vw, 3.0rem);
   font-weight: 800;
   color: var(--text-primary);
@@ -374,6 +375,7 @@
 }
 
 .hero-subtitle {
+  font-family: GraphikWide-Thin,sans-serif;
   font-size: clamp(1.125rem, 2.5vw, 1.5rem);
   color: rgba(255, 255, 255, 0.9);
   line-height: 1.5;
