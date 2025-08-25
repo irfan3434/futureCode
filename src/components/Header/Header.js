@@ -281,7 +281,7 @@ const HeroSection = memo(({ isHomePage }) => {
     setAnimationKey(prev => prev + 1);
   }, 700);
 }, []);
-
+ 
   
   // Auto-advance slides
    useEffect(() => {
