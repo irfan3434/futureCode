@@ -2,7 +2,7 @@
 
 Saudi Arabia's Premier Event Partner - Leading the way in innovative exhibitions, conferences, and event management solutions across the Kingdom.
 
-[Show Image](./public/assets/futurecode3.webp)
+![FuturCode Website Preview](./public/assets/futurecode3.webp)
 
 🌟 Overview
 FutureCode is a cutting-edge corporate website built with React, showcasing innovative event management solutions across Saudi Arabia. This modern web application features stunning visual design, smooth animations, and interactive components that effectively communicate the company's approach to exhibitions, conferences, and corporate events.
